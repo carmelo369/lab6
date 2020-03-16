@@ -2,7 +2,51 @@ body{
     background-color: #CBE2F6;
     text-align: center;
 }
-img{
+
+/*Navigation*/
+nav{
+    text-align: center;
+}
+nav a { /*links within "nav" container*/
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline*/
+    color: black;          /* by default, links are blue*/
+}
+nav a:hover{ /*pseudo class*/
+    border-bottom: 2px red solid;
+    font-size: 2em;
+    transition: .9s; /* transition effect */
+}
+.current{ /*current page's menu item stands out*/
+    border-bottom: 2px red solid;
+}
+.solar1{
     height: 950px;
+    width: auto;
+}
+.venus1{
+    height: 1300px;
+    width: 1300px;
+}
+.earth1{
+    height: 1300px;
+    width: 1300px;
+}
+.mars1{
+    height: 1300px;
+    width: 1300px;
+}
+.jupiter1{
+    height: auto;
     width: 1500px;
+}
+.saturn1{
+    height: 1300px;
+    width: 1500px;
+}
+.neptune1{
+    height: 1300px;
+    width: 1300px;
 }
